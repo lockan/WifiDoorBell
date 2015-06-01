@@ -1,0 +1,17 @@
+D:\Code\Projects\WifiDoorBell\WinReciever\HeyListenPC\HeyListenPC\bin\Debug\HeyListenPC.exe.config
+D:\Code\Projects\WifiDoorBell\WinReciever\HeyListenPC\HeyListenPC\bin\Debug\HeyListenPC.exe
+D:\Code\Projects\WifiDoorBell\WinReciever\HeyListenPC\HeyListenPC\bin\Debug\HeyListenPC.pdb
+D:\Code\Projects\WifiDoorBell\WinReciever\HeyListenPC\HeyListenPC\obj\Debug\HeyListenPC.Properties.Resources.resources
+D:\Code\Projects\WifiDoorBell\WinReciever\HeyListenPC\HeyListenPC\obj\Debug\HeyListenPC.csproj.GenerateResource.Cache
+D:\Code\Projects\WifiDoorBell\WinReciever\HeyListenPC\HeyListenPC\obj\Debug\HeyListenPC.exe
+D:\Code\Projects\WifiDoorBell\WinReciever\HeyListenPC\HeyListenPC\obj\Debug\HeyListenPC.pdb
+D:\Code\Projects\WifiDoorBell\WinReciever\HeyListenPC\HeyListenPC\obj\Debug\HeyListenPC.ListenForm.resources
+D:\Code\Projects\WifiDoorBell\WinReciever\HeyListenPC\HeyListenPC\obj\Debug\HeyListenPC.csprojResolveAssemblyReference.cache
+D:\Code\Projects\WifiDoorBell\WinReceiver\HeyListenPC\HeyListenPC\obj\Debug\HeyListenPC.ListenForm.resources
+D:\Code\Projects\WifiDoorBell\WinReceiver\HeyListenPC\HeyListenPC\obj\Debug\HeyListenPC.Properties.Resources.resources
+D:\Code\Projects\WifiDoorBell\WinReceiver\HeyListenPC\HeyListenPC\obj\Debug\HeyListenPC.csproj.GenerateResource.Cache
+D:\Code\Projects\WifiDoorBell\WinReceiver\HeyListenPC\HeyListenPC\bin\Debug\HeyListenPC.exe.config
+D:\Code\Projects\WifiDoorBell\WinReceiver\HeyListenPC\HeyListenPC\bin\Debug\HeyListenPC.exe
+D:\Code\Projects\WifiDoorBell\WinReceiver\HeyListenPC\HeyListenPC\bin\Debug\HeyListenPC.pdb
+D:\Code\Projects\WifiDoorBell\WinReceiver\HeyListenPC\HeyListenPC\obj\Debug\HeyListenPC.exe
+D:\Code\Projects\WifiDoorBell\WinReceiver\HeyListenPC\HeyListenPC\obj\Debug\HeyListenPC.pdb

@@ -1,0 +1,8 @@
+D:\Code\Projects\WifiDoorBell\WinReceiver\HeyListenPC\HeyListenPC\bin\Release\HeyListenPC.exe.config
+D:\Code\Projects\WifiDoorBell\WinReceiver\HeyListenPC\HeyListenPC\bin\Release\HeyListenPC.exe
+D:\Code\Projects\WifiDoorBell\WinReceiver\HeyListenPC\HeyListenPC\bin\Release\HeyListenPC.pdb
+D:\Code\Projects\WifiDoorBell\WinReceiver\HeyListenPC\HeyListenPC\obj\Release\HeyListenPC.ListenForm.resources
+D:\Code\Projects\WifiDoorBell\WinReceiver\HeyListenPC\HeyListenPC\obj\Release\HeyListenPC.Properties.Resources.resources
+D:\Code\Projects\WifiDoorBell\WinReceiver\HeyListenPC\HeyListenPC\obj\Release\HeyListenPC.csproj.GenerateResource.Cache
+D:\Code\Projects\WifiDoorBell\WinReceiver\HeyListenPC\HeyListenPC\obj\Release\HeyListenPC.exe
+D:\Code\Projects\WifiDoorBell\WinReceiver\HeyListenPC\HeyListenPC\obj\Release\HeyListenPC.pdb
