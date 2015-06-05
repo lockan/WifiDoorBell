@@ -69,6 +69,25 @@ namespace HeyListenPC
         {
             try
             {
+                System.Reflection.Assembly a = System.Reflection.Assembly.GetExecutingAssembly();
+                System.IO.Stream s; 
+                
+                s = a.GetManifestResourceStream("HeyListenPC.NaviHey.wav");
+                System.Media.SoundPlayer hey = new System.Media.SoundPlayer(s);
+                //hey.Load();
+                s = a.GetManifestResourceStream("HeyListenPC.NaviHello.wav");
+                System.Media.SoundPlayer hello = new System.Media.SoundPlayer(s);
+                //hello.Load();
+                s = a.GetManifestResourceStream("HeyListenPC.NaviListen.wav");
+                System.Media.SoundPlayer listen = new System.Media.SoundPlayer(s);
+                //listen.Load();
+                System.Media.SoundPlayer[] sounds = new System.Media.SoundPlayer[3] { 
+                    hey, 
+                    hello, 
+                    listen 
+                };
+                Random randSound = new Random();
+                
                 SetStatusDelegate statusdel = (SetStatusDelegate)del;
 
                 Console.WriteLine("HeyListen running. Setting up socket ...");
@@ -81,11 +100,12 @@ namespace HeyListenPC
                 IPEndPoint iep = new IPEndPoint(IPAddress.Any, PORT);
                 socket.Bind(iep);
                 EndPoint ep = (EndPoint)iep;
-
+                
                 Console.WriteLine("HeyListen listening on port 9050");
                 statusdel.Invoke("Listening on port 9050...");
 
                 byte[] data_in = new byte[PACKETSIZE];
+                
 
                 int bytes_in;
                 while ((bytes_in = socket.ReceiveFrom(data_in, ref ep)) != -1)
@@ -95,7 +115,13 @@ namespace HeyListenPC
                         string instring = Encoding.ASCII.GetString(data_in);
                         Console.WriteLine(instring);
                         statusdel.Invoke(instring);
-                        Thread.Sleep(2000);
+                        
+                        for (int i = 0; i < 3; ++i)
+                        {
+                            sounds[randSound.Next(sounds.Length)].Play();
+                            Thread.Sleep(1500);
+                        }
+                        
                         statusdel.Invoke("Listening on port 9050...");
                     }
                 }
